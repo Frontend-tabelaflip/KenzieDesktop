@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criando Formulário de Cadastro</title>
+</head>
+
+<body>
+  <section>
+    <h2>Formulário de Cadastro</h2>
+    <form>
+      <legend>Cadastro de Usuário</legend>
+      <br>
+      <div>
+        <label for="nome">Nome</label>
+        <br>
+        <input id="nome" name="nome" type="text" placeholder="Digite seu nome aqui..." required="true" />
+      </div>
+      <br>
+      <div>
+        <label for="email">Email</label>
+        <br>
+        <input for="email" name="email" type="email" placeholder="Digite seu email aqui..." required="true" />
+      </div>
+      <br>
+      <div>
+        <label for="motivo">O que te motivou a participar do evento?</label>
+        <br>
+        <textarea id="motivo" placeholder="Descreva aqui..." cols="30" rows="5"></textarea>
+        <br>
+      </div>
+      <br>
+      <div>
+        <label for="modulo">Selecione um módulo</label>
+        <br>
+        <select id="modulo">
+          <option value="default" selected>Escolher módulo</option>
+          <option value="m1">M1</option>
+          <option value="m2">M2</option>
+          <option value="m3">M3</option>
+          <option value="m4">M4</option>
+          <option value="m5">M5</option>
+          <option value="m6">M6</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="senha">Senha</label>
+        <br>
+        <input for="senha" name="senha" type="password" placeholder="Digite sua senha aqui..." required="true" />
+      </div>
+      <br>
+      <div>
+        <label for="confirmacao">Confirmação de senha</label>
+        <br>
+        <input for="confirmacao" name="confirmacao" type="password" placeholder="Confirme a sua senha aqui..."
+          required="true" />
+      </div>
+      <div>
+        <p>Deseja receber novidades em seu email?</p>
+        <label for="sim">Sim</label>
+        <input type="radio" id="sim" value="sim" name="novidades">
+        <label for="nao">Não</label>
+        <input type="radio" id="nao" value="nao" name="novidades">
+      </div>
+      <br>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </section>
+</body>
+
+</html>

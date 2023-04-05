@@ -1,0 +1,14 @@
+.primeira {
+    background-color: red;
+}
+
+.segunda {
+    background-color: blue;
+}
+
+.linha {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+}
