@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+
+.box {
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    border: medium black;
+    border-style: double;
+}
+
+.container .red {
+    background-color: red;
+}
+
+.container .blue {
+    background-color: blue;
+}
+
+.container .yellow {
+    background-color: yellow;
+}
+
+.container .green {
+    background-color: green;
+}
