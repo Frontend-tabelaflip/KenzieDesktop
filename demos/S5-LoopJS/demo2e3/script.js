@@ -114,7 +114,13 @@ function piramideNumerica(tamanhoPiramide) {
         }
         console.log(linha);
     }
-}
-
+}  
 
 piramideNumerica(5);
+
+// ['O poderoso Chefao', 'Os vingadores'].map((element, index) => {
+// return
+//    (<div className='myDiv'>
+//         '${index} Filme - ${element}'
+//     </div>)
+// })

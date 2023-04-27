@@ -34,3 +34,8 @@ console.log(typeof numero1);
 let boleano1 = true;
 let boleano2 = false;
 console.log(typeof boleano1);
+
+// const lala = []
+// let a = lala.length ? 'Tem coisa no array' : 'mentira' 
+
+// let b = test || 'alooo'
