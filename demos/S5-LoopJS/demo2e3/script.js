@@ -107,7 +107,7 @@ function piramideNumerica(tamanhoPiramide) {
     for (let i = 1; i <= tamanhoPiramide; i++) {
         let linha = '';
         // console.log(i);
-
+        
         for (let j = 1; j <= i; j++) {
             // console.log("j", j);
             linha += j + ' ';
@@ -117,6 +117,7 @@ function piramideNumerica(tamanhoPiramide) {
 }  
 
 piramideNumerica(5);
+
 
 // ['O poderoso Chefao', 'Os vingadores'].map((element, index) => {
 // return
