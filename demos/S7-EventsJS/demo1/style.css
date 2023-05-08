@@ -1,0 +1,10 @@
+p {
+    height: 18px;
+    transition: 2s;
+    overflow-y: hidden;
+}
+
+.hidden {
+    height: 0px;
+    opacity: 0;
+}
